@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension method="upgrade" type="plugin" group="system">
+    <name>PLG_SYSTEM_FAIL2BAN</name>
+    <version>1.0.0</version>
+    <description>PLG_SYSTEM_FAIL2BAN_DESCRIPTION</description>
+    <author>Matthias Fehring</author>
+    <creationDate>2026-11-02</creationDate>
+    <copyright>(C) 2026 Matthias Fehring</copyright>
+    <license>GNU Affero General Public License Version 3 or later</license>
+    <namespace path="src">HBN\Plugin\System\HbnFail2ban</namespace>
+    <files>
+        <folder plugin="hbnfail2ban">services</folder>
+        <folder>src</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/plg_system_hbnfail2ban.sys.ini</language>
+        <language tag="en-GB">language/en-GB/plg_system_hbnfail2ban.ini</language>
+        <language tag="de-DE">language/de-DE/plg_system_hbnfail2ban.sys.ini</language>
+        <language tag="de-DE">language/de-DE/plg_system_hbnfail2ban.ini</language>
+    </languages>
+</extension>
